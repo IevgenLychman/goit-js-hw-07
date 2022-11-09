@@ -39,5 +39,7 @@ function selectImg(e) {
     if (e.code === "Escape") {
       instance.close();
     }
+    galleryContainer.removeEventListener;
+    console.log(e.code);
   });
 }
